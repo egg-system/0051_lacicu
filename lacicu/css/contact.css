@@ -1,0 +1,67 @@
+.aboutContactHeader {
+  width: 100%;
+  height: 540px;
+/*  padding-top: 50px;*/
+  background-image: url(https://willbe-ako.com/wp/wp-content/uploads/2019/02/Willbe_05_top.png);
+  background-repeat: no-repeat;
+  background-size: cover;	
+}
+
+#contact {
+	display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+	text-align: left;
+}
+
+#contact .form-control {
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+	margin: 1.5em 0;
+}
+
+#contact .form-control div {
+	width: 40%;    
+	display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#contact .form-control p {
+	margin: 0;
+	width: 60%;
+}
+
+#contact input {
+	margin: 0;
+}
+
+#contact select.wpcf7-form-control{
+	padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	.aboutContactHeader {
+		height: 200px;
+	}
+	
+	#contact .form-control {
+		flex-flow: column nowrap;
+	}
+
+	
+	#contact .form-control div {
+		width: 100%;
+		justify-content: unset;
+	}
+
+	#contact .form-control p {
+		width: 100%;
+		margin: 1em 0;
+	}
+	
+	#contact .form-control label {
+		margin-right: 1em;
+	}
+}	

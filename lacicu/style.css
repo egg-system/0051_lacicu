@@ -1,0 +1,2210 @@
+@import url('./css/flow.css');
+@import url('./css/contact.css');
+
+main {
+  clear: both;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+html {
+    margin-top: 0px !important;
+}
+
+/* 全ページ共通スタイル */
+.main-content {
+	width: 90%;
+    margin: 3em auto;
+	text-align: center;
+}
+nav {
+	display: flex;
+	align-items: center;
+    text-align: center;
+}
+nav #logo {
+ 	width: 30%;
+	padding: 0.2em 0;
+}
+
+#logo a img {
+	max-width: 200px;
+}
+
+#menu-menu1 li:hover {
+	background-color: red;
+}
+
+#menu-menu1 li a:hover {
+	color: white;
+}
+
+@media screen and (max-width: 480px) {
+	.main-content {
+		width: 100%;
+	}	
+	
+	#logo {
+		/* margin-left: 3em; */
+	}
+}
+
+/******************トップページ******************/
+#topPage{
+	max-width:1600px;
+}
+#topPage a{
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#topPage a:hover{
+	opacity: 0.5;
+}
+
+#topPage .contents{
+	margin:60px auto;
+	clear:both;
+}
+#topPage .willbeStrength, #topPage .columnTop, #topPage .map {
+	max-width:1200px;
+	margin:0 auto;
+}
+#topPage h2{
+	font-size:1.6em;
+	font-weight:500;
+}
+#topPhrase {
+	font-size: 3vw;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 40%;
+	color: white;
+}
+@media screen and (max-width: 1028px) {
+	#topPhrase {	
+		top: 20%;
+	}	
+	#logo a img{
+		max-width: 170px;
+	}
+}
+#topPhrase p {
+    background-color: rgba(0,0,0,.5);
+	text-align: left;
+    margin: 0.1em;
+	padding: 0.1em;
+    width: fit-content;
+}
+
+#topPhrase span {
+	font-size: 0.5em;
+}
+.sliderWrap{
+	display:flex;
+	clear:both;
+	max-width:100%;
+	margin:20px auto;
+}
+.topImage1 {
+  max-width: 100%;
+}
+.slider {
+	max-width: 81.25%;
+	height:auto;
+}
+.slider,
+.slick-slide {
+  height: auto !important;
+}
+.slide01,
+.slide02,
+.slide03 {
+  position: relative;
+}
+.slide01 img,
+.slide02 img,
+.slide03 img{
+  max-width: 100%;
+}
+.slide02 div {
+  position: absolute;
+  background-color: #f2e727;
+  top: 60%;
+  left: 60%;
+}
+.slide02 div:after {
+  content: ">";
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+.slide02 div a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 1em 3em 1em 2em;
+}
+.slide03 div {
+  position: absolute;
+  background-color: #f2e727;
+  bottom: 5%;
+  left: 55%;
+}
+.slide03 div:after {
+  content: ">";
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+.slide03 div a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 1em 4em 1em 2em;
+}
+.slide03 div a span {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+.sliderTopNav{
+	max-width:18.75%;
+}
+.sliderTopNav a{
+	float:left;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sliderTopNav a:hover{
+	opacity: 0.5;
+}
+.sliderTopNav img {
+	max-width:100%;
+}
+/* slider追記 */
+#sliderWrap {
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+}
+#slider {
+  width: 81.25%;
+  padding: 0;
+  display: inline-block;
+}
+#slider .slide-item img {
+  width: 100%;
+}
+#thumbnail-list {
+  width: 18.75%;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+#thumbnail-list .thumbnail-item {
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+#thumbnail-list .thumbnail-item:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.3s opacity linear;
+}
+#thumbnail-list .thumbnail-item.thumbnail-current:after {
+   width: 0;
+  height: 0;
+}
+#thumbnail-list .thumbnail-item img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#topPage .container{
+	max-width:1200px;
+	margin:60px auto;
+	clear:both;
+}
+
+@media screen and (max-width: 767px) {
+	.sliderWrap{
+	display:block;
+	justify-content: center;
+	}
+	.slider {
+	max-width: 100%;
+	height:auto;
+	}
+	.sliderTopNav{
+	max-width:100%;
+	display:flex;
+	}
+  .slide02 div {
+    left: 60%;
+    top: 65%;
+  }
+  .slide02 div:after {
+    top: 10%;
+    font-size: 10px;
+  }
+  .slide02 div a {
+    padding: 0.5em 2em 0.5em 1em;
+    font-size: 0.5em;
+  }
+  .slide03 div {
+    left: 50%;
+    bottom: 0;
+  }
+  .slide03 div:after {
+    top: 20%;
+    font-size: 10px;
+  }
+  .slide03 div a {
+    padding: 0.5em 3em 0.5em 1em;
+    font-size: 0.5em;
+  }
+  .slide03 div a span {
+    font-size: 1.3em;
+    vertical-align: baseline;
+  }
+}
+
+	.fadein {
+  opacity: 0;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  transition: all 1.5s;
+	}
+	.fadein.scrollin {
+		opacity: 1;
+	}
+
+.mainBigcontainer {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.nav {
+  margin: 10px auto;
+  padding: 0;
+}
+.nav li {
+  float: left;
+  width: 200px;
+  list-style: none;
+  font-size: 16px;
+  color: #333333;
+  position: relative;
+  list-style: none;
+}
+.nav li:first-child {
+  width: 150px;
+}
+.nav li:last-child {
+  width: 150px;
+}
+.nav li a {
+  float: left;
+  height: 30px;
+  text-align: left;
+  color: #333333;
+  font-size: 14px;
+  line-height: 30px;
+  transition: 0.5s;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.nav li a:last-child {
+  width: 200px;
+}
+.nav li ul {
+  top: 50px;
+  position: absolute;
+}
+.nav li ul li {
+  overflow: hidden;
+  height: 0;
+  transition: 0.2s;
+}
+.nav li:hover > ul > li {
+  overflow: visible;
+  height: 30px;
+  z-index: 1;
+}
+.nav li ul li ul {
+  top: 0;
+  left: 110px;
+}
+.nav li ul li ul:before {/*layer-2▷*/
+  position: absolute;
+  content: "";
+  left: 30px;
+  border: 5px solid transparent;
+  border-left: 5px solid #fff;
+}
+.nav li ul li ul.left {
+  top: 0;
+}
+.line {
+	/* float: right; */
+	width: 60px;
+}
+.twitter {
+	/* float: right; */
+	width: 60px;
+	margin-left: 20px;
+}
+
+.what_sg {
+  max-width: 1200px;
+  margin: 0 auto 3em;
+  position: relative;
+}
+.secondImage1 {
+  width: 100%;
+  /* max-width: 1200px; */
+}
+.what_sg a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.whatsStudygymClick {
+    /* display: block; */
+    /* text-align: left; */
+    width: 233px;
+    /* height: 50px; */
+    /* transform: translateY(-50px); */
+    /* cursor: pointer; */
+    /*margin-left: 110px;*/
+}
+@media screen and (max-width: 420px) {
+  .secondImage1 {
+		/* width: 300px; */
+	}
+  .whatsStudygymClick {
+      width: 115px;
+      height: 25px;
+      /* margin-left: 10px; */
+      /* transform: translateY(-30px); */
+  }  
+}
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+	.mainBigcontainer {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.mainBigcontainer {
+		width: 100%;
+	}
+	.whatsStudygymClick {
+		width: 115px;
+		height: 25px;
+/*		margin-left: 10px;
+		transform: translateY(-30px);*/
+	}
+}
+/****************** Willbeの強み ******************/
+#topPage .strengthContainer {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:80%;
+	margin:40px auto;
+}
+#topPage .willbeStrength hr{
+	width:3%;
+	border-top: 2px solid #E60020;
+}
+#topPage .strengthSmallText{
+	margin:20px 0;
+	color:#E60020;
+}
+#topPage .strengthText{
+	font-weight:600;
+	font-size:1.1em;
+}
+#topPage .willbeBtn{
+	display:inline-block;
+	width:200px;
+	line-height:50px;
+	padding:0px 20px;
+	margin:0 auto;
+	background-color:#E60020;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#topPage .willbeBtn:hover{
+	opacity: 0.5;
+}
+#topPage .willbeBtn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+@media screen and (max-width: 767px) {
+#topPage .strength1, #topPage .strength2, #topPage .strength3{
+	margin-top:20px;
+}
+}
+/******************Topページお知らせ******************/
+#topPage .newsWrap{
+	width:100vw;
+	margin:60px auto;
+	padding:40px 0;
+	background-color:#EEEEEF;
+}
+.newsHead {
+  font-size: 1.6em;
+  text-align: center;
+	font-weight:500;
+}
+.newsHead span{
+	font-size:0.8em;
+	font-weight:bold;
+	color:#E60020;
+}
+.newsTable {
+	width:1200px;
+	margin: auto;
+	margin-bottom: 100px;
+	background-color:#ffffff;
+	border-top:1px solid #E60020;
+}
+table.newsTanle tr {
+	display:inline-block;
+}
+.newsTableLine {
+  border-top: 1px solid #CDCDCD;
+}
+.newsTable1row {
+  height: 50px;
+  font-size: 0.8em;
+  border-bottom: 1px dotted #CDCDCD;
+}
+.newsTable1row span{
+	margin-right:10px;
+	color:#E60020;
+}
+.newsTable2row {
+  border-bottom: 1px dotted #CDCDCD;
+  font-size: 1.0em;
+  text-align: left;
+  padding-left: 80px;
+}
+.newsTable a{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+}
+.newsTable1row a{
+	text-align: right;
+	color: black;
+	text-decoration: none;
+}
+.newsTable2row a{
+	color: black;
+	text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+.newsTable{
+	width:90%;
+}
+.newsTable1row {
+	width: 20%;
+}
+.newsTable2row {
+	width: 70%;
+    padding-left: 20px;
+}
+}
+
+/******************Topページコラム******************/
+.columnTop > .columnContainer {
+  max-width: 100%;
+  margin-bottom: 100px;
+  text-align: left;
+  margin: 0 auto;
+}
+.columnTop > .columnContainer ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	width:100%;
+	list-style:none;
+}
+.columnTop > .columnContainer ul li.column {
+/*  height: auto; */
+  border: none !important;
+  word-break: break-word;
+  width: 360px;
+  text-align:left;
+  margin-bottom:20px;
+  margin-right:calc(calc(1200px - 360px * 3) /2);
+}
+.columnTop > .columnContainer ul li.column:last-child {
+	margin-right:0;
+}
+.columnTop > h2 {
+	margin: 5px auto 40px;
+}
+.columnTop > span{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#E60020;
+}
+.columnTop > .columnContainer h3{
+	margin:15px 0;
+}
+.columnTop > .columnContainer h3 a{
+	text-decoration:none;
+	color:#000;
+}
+
+/*
+.column_TopPage + .columnContainer ul li.column:nth-last-child(1) {
+  margin-right: 0;
+}
+.column_TopPage + .columnContainer ul li.column h1{
+	margin:10px 0;
+}
+*/
+
+.square img{
+  margin-bottom: 10px;
+}
+.column p {
+  font-size: 14px;
+}
+
+.topColumnListMoreParent {
+    text-align:  center;        /* 中央寄せ */
+    margin: 3em 0 5em;
+}
+.topColumnListMore {
+    display: inline-block;
+}
+
+.topColumnListMore a{
+      /* ブロックレベル要素化 */
+        display: block;
+        
+        /* サイズ指定 */
+        width: 200px;
+        height: 50px;
+		padding:0 20px;
+	
+        /* 縦横中央揃え */
+        text-align: center;
+        line-height: 50px;
+        
+        /* 色指定 */
+        color: #FFFFFF; 
+        background-color: #E60020;
+        
+        /* その他 */
+        font-size: 14px;
+        text-decoration: none;	
+}
+
+/* .topColumnListMore a:hover {
+        color: #FFFFFF;
+        background-color: #3E4051;
+} */
+@media screen and (max-width: 1200px) {
+	.columnTop > .columnContainer ul li.column {
+		margin:20px auto 0;
+		justify-content:space-between;
+	}
+	.columnTop > .columnContainer ul li.column:last-child{
+		margin-right:auto;
+	}
+}
+@media screen and (max-width: 767px) {
+  .columnTop > .columnContainer ul {
+    padding: 0;
+    width: 90% !important;
+    margin: 0 auto;
+    font-size: initial;
+    text-align: left;
+  }
+  .columnTop > .columnContainer ul li.column {
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+  }
+}
+/******************Topページマップ******************/
+#topPage .map{
+	margin:60px auto 0;
+}
+@media screen and (max-width: 767px) {
+	.googlemap{
+		width:95%;
+	}
+}
+
+/*-----------------------------------*/
+.googlemap {
+	/* margin-bottom: 50px; */
+	width: 100%; 
+	height: 450px;
+  display: block;
+  margin: 0 auto 3em;
+}
+.circlePhoto {
+  width: 260px;
+  margin-right: 60px;
+}
+.circlePhoto:last-child {
+  margin-right: 0;
+}
+
+/******************共通メニュー******************/
+
+.aboutHeader {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+/******************投稿（コラム）ページ******************/
+.contribution {
+/*  width: 1200px; */
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.contributionContainer{
+  width: 800px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+.contribution p {
+  word-wrap: break-word;
+}
+
+span.contributionCategory{
+	 display: inline-block;
+    padding: 0.3em .3em;
+    text-align: center;
+    border: 1px solid rgba(119, 119, 119, 0.1);
+}
+
+.contribution .entry {
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contributionHead {
+  border-bottom: 2px solid #333;
+  padding: 2%;
+}
+
+.contribution h2 {
+  padding: 8px 0 8px 16px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  color: #000;
+  border-left: 1px solid #000;
+}
+span.previous, span.next {
+  display: inline-block;
+  padding: .5em 1em;
+  text-align: center;
+  border: 1px solid rgba(119, 119, 119, 0.1);
+  margin: 0 .5rem .5rem 0;
+}
+
+span.next {
+  float: right;
+}
+span.previousfirst{
+	border: 0px;
+}
+
+/* アイキャッチ画像サイズ */
+.wp-post-image {
+    width: 800px;
+    height: 488px;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+}
+@media screen and (max-width: 420px) {
+	.secondImage1 {
+		/* width: 300px; */
+	}
+	.contributionContainer{
+		width: 75%;
+	}
+/*
+	.newsTable {
+	  width: 100%;
+	  margin-bottom: 100px;
+	}
+	.newsTable1row {
+	  width: 33%;
+	  height: 85px;
+	  font-size: 18px;
+	}
+	.newsTable2row {
+	  width: 50px;
+	  font-size: 16px;
+	  text-align: center;
+	}
+	.newsTable3row {
+	  width: 50%;
+	  font-size: 17px;
+	}
+	.column_TopPage + .columnContainer ul{
+		width: 100%;
+    font-size: 0;
+	}
+*/
+	.googlemap {
+		width: 90%;
+		height: 225px;
+	}
+	.circlePhoto {
+		width: 50px;
+		margin-right: 60px;
+	}
+	.circlePhoto:last-child {
+		margin-right: 0;
+	}
+	.wp-post-image {
+		width: 75%;
+		height: 244px;
+	}
+}
+
+/* 「コラム一覧へ」ボタン */
+.contributionListBack {
+	text-align: center;
+}
+
+
+/******************スタディジムとは******************/
+.aboutStudygymHeader {
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  background-image: url(img/aboutStudygym_top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.studyGymLogo {
+  float: left;
+  width: 200px;
+  margin-right: 100px;
+}
+.headerInner {
+  width: 83%;
+  margin: 0 auto;
+}
+.whatsStudyGym {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.whatsStudyGymContainer {
+  width: 75%;
+  margin: 0 auto;
+}
+.whatsStudyGymHead {
+	margin-bottom: 50px;
+	font-size: 15px;
+	width: 75%;	
+	text-align: left;
+}
+.whatsStudyGym1 {
+	width: 100%;
+	margin-bottom: 100px;
+	display: flex;
+}
+.whatsStudyGym1 h1 {
+  font-size: 46px;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.whatsStudyGym1 p {
+  font-size: 18px;
+}
+.whatsStudyGym1_p {
+	display: inline-block;
+	margin-right: 0px;
+	text-align: left;
+	width: 710px;
+}
+.brain {
+  display: inline-block;
+  width: 150px;
+}
+.whatsStudyGym2 {
+  width: 100%;
+  margin-bottom: 100px;
+	display: flex;
+}
+.whatsStudyGym2 h1 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.whatsStudyGym2 p {
+  font-size: 15px;
+}
+.whatsStudyGym2_p {
+  display: inline-block;
+  margin-right: 0px;
+  text-align: left;
+	width: 710px;
+}
+.step {
+  display: inline-block;
+  width: 150px;
+}
+.whatsStudyGym3 {
+  width: 100%;
+  margin-bottom: 100px;
+	display: flex;
+}
+.whatsStudyGym3 h1 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.whatsStudyGym3 p {
+  font-size: 15px;
+}
+.whatsStudyGym3_p {
+  display: inline-block;
+  margin-right: 0px;
+  text-align: left;
+	width: 710px;
+}
+.record {
+  display: inline-block;
+  width: 150px;
+  padding-bottom: 100px;
+}
+.toTrainingPlanIntro {
+  font-size: 22px;
+  text-align: center;
+}
+.toTrainingPlan {
+  width: 75%;
+  height: 100px;
+  border: 1px solid #333333;
+  line-height: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-size: 26px;
+  display: flex;
+}
+.allow {
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+.allowPhoto {
+  height: 20px;
+}
+.whatsJyukencompass {
+  width: 250px;
+  margin-left: 30px;
+  transform: translateY(-75px);
+  cursor: pointer;
+}
+.CourseandPricing {
+  font-size: 15px;
+}
+/* tablet  */
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+	.aboutStudygymHeader {
+		padding-top: 10px;
+		margin-bottom: 50px;
+		height: 360px;
+		width: 100%;
+		text-align: center;	
+	}
+	.studyGymLogo {
+		margin-left: 10px;
+		width: 100px;
+	}
+	.whatsStudyGym1 h1 {
+		font-size: 28px;
+	}
+	.whatsStudyGym1 p {
+		margin: 15px;
+		font-size: 14px;
+	}
+	.whatsStudyGym1_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.whatsStudyGym2 h1 {
+		font-size: 20px;
+	}
+	.whatsStudyGym2 p {
+		margin: 15px;
+		font-size: 12px;
+	}
+	.whatsStudyGym2_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.whatsStudyGym3 h1 {
+		font-size: 20px;
+	}
+	.whatsStudyGym3 p {
+		margin: 15px;
+		font-size: 12px;
+	}
+	.whatsStudyGym3_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.toTrainingPlanIntro {
+		font-size: 16px;
+	}
+	.toTrainingPlan {
+		text-align: center;
+		padding-left: 0;
+		width: 100%;
+		font-size: 12px;
+		line-height: 40px;
+		height: 120px;
+	}
+	.whatsJyukencompass {
+		margin-left: 0px;
+	}
+}
+/* smartPhone */
+@media screen and (max-width: 420px) {
+	.aboutStudygymHeader {
+		padding-top: 10px;
+		margin-bottom: 50px;
+		height: 300px;
+		text-align: center;	
+	}
+	.studyGymLogo {
+		margin-left: 10px;
+		width: 100px;
+		margin-right: 0px;
+	}
+	.whatsStudyGym {
+		width: 100%;
+	}
+	.whatsStudyGymHead{
+		width: 100%;
+		text-align: center;
+	}
+	.whatsStudyGym1 {
+		display: block;
+	}
+	.whatsStudyGym1 h1 {
+		font-size: 28px;
+	}
+	.whatsStudyGym1 p {
+		margin: 15px;
+		font-size: 14px;
+	}
+	.whatsStudyGym1_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.whatsStudyGym2 {
+		display: block;
+	}
+	.whatsStudyGym2 h1 {
+		font-size: 20px;
+	}
+	.whatsStudyGym2 p {
+		margin: 15px;
+		font-size: 12px;
+	}
+	.whatsStudyGym2_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.whatsStudyGym3 {
+		display: block;
+	}
+	.whatsStudyGym3 h1 {
+		font-size: 20px;
+	}
+	.whatsStudyGym3 p {
+		margin: 15px;
+		font-size: 12px;
+	}
+	.whatsStudyGym3_p {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.toTrainingPlanIntro {
+		font-size: 16px;
+	}
+	.toTrainingPlan {
+		text-align: center;
+		padding-left: 0;
+		width: 100%;
+		font-size: 12px;
+		line-height: 40px;
+		height: 120px;
+		display: block;
+	}
+	.whatsJyukencompass {
+		margin-left: 0px;
+		 transform: translateY(0px);
+	}
+}
+
+.underlines {
+  border-bottom: 1px solid #CDCDCD;
+}
+#lefts {
+  padding-left: 10px;
+  text-align: left;
+}
+.servicesUl {
+  width: 100%;
+  margin: 0 auto;
+}
+.services {
+  margin-bottom:  100px;
+  padding-left: 15px;
+}
+.services li {
+  font-size: 12px;
+  line-height: 20px;
+  list-style: none;
+}
+/******************受験コンパスとは******************/
+.aboutMain {
+	width: 100%;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.aboutCompassHead {
+	text-align: center;
+/* 	width: 800px; */
+	padding-top: 50px;
+	margin: 10px ;
+	margin-bottom: 100px;
+}
+/* スマホのみpadding-top 100px を削除するため */
+@media only screen and (min-width: 1024px) {
+.aboutJyukencompass {
+  width: 800px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+}
+.aboutJyukencompass p {
+  font-size: 28px;
+  text-align: center;
+}
+.introduction {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.aboutLine {
+  width: 100px;
+  text-align: center;
+  color: #CDCDCD;
+  margin: 0 auto;
+}
+.aboutJyukencompassWhats {
+  font-size: 16px;
+  color: #36BDEF;
+  text-align: center;
+  margin-top: 50px;
+}
+.jukencompasstoha {
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.belt {
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  background: #36bdef;
+}
+.dameRunner {
+  text-align: center;
+
+}
+.dameRunnerLogo {
+  width: 800px;
+}
+.dameRunnerImg {
+  width: 800px;
+  margin: 50px 0 50px;
+}
+.ifJyukencompassBe {
+  width: 600px;
+}
+.ifJyukencompassContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.yourGoal {
+  text-align: center;
+}
+.yourGoalImg {
+  width: 800px;
+  margin: 100px 0 50px;
+}
+.step1 {
+  text-align: center;
+}
+.step1Img {
+  width: 800px;
+  margin: 50px 0 50px;
+}
+.step2 {
+  text-align: center;
+}
+.step2Img {
+  width: 800px;
+  margin: 50px 0 50px;
+}
+.stepsContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.points {
+  text-align: center;
+}
+.pointsImg {
+  width: 800px;
+  margin: 0 0 50px;
+}
+.points4Img {
+  width: 600px;
+}
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+	.aboutCompassHead {
+		padding-top: 10px;
+		margin-bottom: 10px;
+		height: 360px;
+		width: 100%;
+		text-align: center;	
+	}
+		.aboutJyukencompass {
+		width: 90%;
+		padding-top: 100px;
+		margin: 0 auto;
+	}
+	.belt {
+		height: 50px;
+	}
+	.dameRunnerLogo {
+	  width: 90%;
+	}
+	.dameRunnerImg {
+	  width: 90%;
+	  margin: 50px auto;
+	}
+	.ifJyukencompassBe {
+	  width: 80%;
+	}
+	.ifJyukencompassContainer {
+	  width: 80%;
+	  margin: 0 auto;
+	}
+	.yourGoal {
+	  text-align: center;
+	}
+	.yourGoalImg {
+		width: 90%;
+		margin: 30px 0 15px;
+	}
+	.step1 {
+	  text-align: center;
+	}
+	.step1Img {
+	  width: 90%;
+	}
+	.step2 {
+	  text-align: center;
+	}
+	.step2Img {
+	  width: 96%;
+		margin-bottom: 20px;
+	}
+	.stepsContainer {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+	.points {
+	  text-align: center;
+	}
+	.pointsImg {
+	  width: 90%;
+	}
+	.points4Img {
+	  width: 95%;
+		margin-left: 30px;
+	}
+}
+/* smartPhone */
+@media screen and (max-width: 420px) {
+	.aboutCompassHead {
+		padding-top: 10px;
+		margin-bottom: 10px;
+		height: 250px;
+		text-align: center;	
+	}
+	.aboutJyukencompass {
+		width: 90%;
+/*		padding-top: 100px;*/
+		margin: 0 auto;
+	}
+	.belt {
+		height: 50px;
+	}
+	.dameRunnerLogo {
+	  width: 90%;
+	}
+	.dameRunnerImg {
+	  width: 90%;
+	  margin: 50px auto;
+	}
+	.ifJyukencompassBe {
+	  width: 80%;
+	}
+	.ifJyukencompassContainer {
+	  width: 80%;
+	  margin: 0 auto;
+	}
+	.yourGoal {
+	  text-align: center;
+	}
+	.yourGoalImg {
+		width: 90%;
+		margin: 30px 0 15px;
+	}
+	.step1 {
+	  text-align: center;
+	}
+	.step1Img {
+	  width: 90%;
+	}
+	.step2 {
+	  text-align: center;
+	}
+	.step2Img {
+	  width: 96%;
+		margin-bottom: 20px;
+	}
+	.stepsContainer {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+	.points {
+	  text-align: center;
+	}
+	.pointsImg {
+	  width: 90%;
+	}
+	.points4Img {
+	  width: 95%;
+		margin-left: 30px;
+	}
+}
+/******************お問い合わせフォーム******************/
+.aboutStudygymForm {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  background-image: url(img/inquiryHead.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formcontainer {
+  width: 1200px;
+  margin: 20 auto;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    padding: 2px;
+}
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    padding: 5px;
+}
+.purpose {
+  width: 250px;
+  border-radius: 0;
+}
+.formWrap {
+	width: 800px;
+	margin:50px auto;
+	color:#555;
+	line-height:120%;
+	font-size:90%;
+}
+.formwrap p {
+  font-size: 18px;
+  border-bottom: solid #333333 2px;
+  padding-bottom: 7px;
+}
+table.formTable{
+  margin:20px auto;
+  border-collapse:collapse;
+}
+table.formTable td,table.formTable th{
+  padding:10px;
+}
+.formTable th {
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+	width: 200px;
+}
+.formTable td {
+  width: 600px;
+  font-size: 14px;
+}
+.inquiryContent {
+  width: 400px;
+}
+.required {
+  width: 43px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #C30D23;
+}
+.buttonContainer {
+  width: 580px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.comform {
+  width: 274px;
+  height: 80px;
+  line-height: 60px;
+  padding: 7px;
+  font-size: 22px;
+  background: #C30D23;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.reset {
+  width: 274px;
+  height: 80px;
+  line-height: 60px;
+  padding: 7px;
+  font-size: 22px;
+  background: #33AFB7;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+p.wpcf7c-elm-step1 {
+    font-size: 18px;
+    border-bottom: solid #333333 2px;
+    padding-bottom: 7px;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+	.aboutStudygymForm {
+		padding-top: 10px;
+		margin-bottom: 40px;
+		height: 250px;
+		text-align: center;	
+	}
+	.formcontainer {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.purpose {
+		width: 200px;
+	}
+	.formWrap {
+		width: 100%;
+		margin: 0px auto;
+		color:#555;
+		line-height: 120%;
+		font-size: 90%;
+	}
+	.formwrap p {
+		font-size: 18px;
+		margin: 20px;
+		text-align: center;
+		padding-bottom: 7px;
+	}
+	.formTable th {
+		width: 160px;
+		font-size: 8px;
+	}
+	.formTable td {
+		width: 200px;
+		font-size: 8px;
+	}
+	.inquiryContent {
+		width: 250px;
+	}
+	.required {
+		height: 15px;
+		line-height: 14px;
+		font-size: 8px;
+	}
+	.buttonContainer {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+	.comform {
+	  width: 150px;
+	  height: 40px;
+	  line-height: 30px;
+	  padding: 7px;
+	  font-size: 12px;
+	}
+	.reset {
+	  width: 150px;
+	  height: 40px;
+	  line-height: 30px;
+	  padding: 7px;
+	  font-size: 12px;
+	}
+	input {
+		border: 1px solid #CDCDCD;
+	}	
+}
+/* smartPhone */
+@media screen and (max-width: 420px) {
+	.aboutStudygymForm {
+		padding-top: 10px;
+		margin-bottom: 100px;
+		height: 300px;
+	}
+	.formcontainer {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.formWrap {
+		width: 100%;
+		margin: 0px auto;
+		color:#555;
+		line-height: 120%;
+		font-size: 90%;
+	}
+	.formwrap p {
+		font-size: 18px;
+		margin: 20px;
+		padding-bottom: 7px;
+		text-align: center;
+	}
+	.formTable tr {
+		display: block;
+	}
+	.formTable th {
+		display: inline-block;
+		width: 300px;
+		font-size: 16px;
+		text-align: left;
+	}
+	.formTable td {
+		display: inline;
+		font-size: 10px;
+	}
+	.formTable th .formTable td {
+		width: 100%;
+	}
+	.inquiryContent {
+		width: 85%;
+	}
+	.required {
+		width: 35px;
+		height: 15px;
+		line-height: 14px;
+		font-size: 8px;
+	}
+	.buttonContainer {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	}
+	.comform {
+	  width: 40%;
+	  height: 40px;
+	  line-height: 30px;
+	  padding: 7px;
+	  font-size: 12px;
+	}
+	.reset {
+	  width: 40%;
+	  height: 40px;
+	  line-height: 30px;
+	  padding: 7px;
+	  font-size: 12px;
+	}
+	input {
+		border: 1px solid #CDCDCD;
+	}
+}
+/******************フッター******************/
+.footerInner {
+  width: 100%;
+}
+.footerContent {
+  display: flex;
+  justify-content: center;
+}
+.footerStudyGymLogo {
+  height: 10em;
+  margin: 3em;
+}
+.address {
+  padding: 2em;    
+  margin: 2em;
+  border-left: 1px solid #b4b9be;
+}
+.line {
+  display: inline-block;
+}
+.twitterFooter {
+  width: 60px;
+  float: right;
+  margin-left: 20px;
+}
+.lineFooter {
+  width: 60px;
+  float: right;
+}
+.inquiryButton {
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  background: #FF7676;
+  text-align: center;
+  border-radius: 7px;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+
+  display: inline-block;
+}
+.allRightsReserved {
+  clear: both;
+  text-align: center;
+  color: white;
+  background: red;
+  height: 50px;
+  line-height: 50px;
+  font-size: 10px;
+}
+/* tablet  */
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+	.footerInner {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+}
+/* smartPhone */
+@media screen and (max-width: 420px) {
+	.footerContent {
+		flex-flow: column;
+		align-items: center;
+	}
+	.footerInner {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+	.footerStudyGymLogo {
+		padding-right: 10px;
+		margin-right: 20px;
+	}
+	.adress {
+		margin-top: 20px;
+		padding-top: 0px;
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.inquiryButton {
+		line-height: 30px;
+		height: 30px;
+	}
+	.twitterFooter {
+	  width: 30px;
+	  margin-left: 10px;
+	}
+	.lineFooter {
+	  width: 30px;
+	}
+}
+/* コラム一覧 */
+.mainBigcontainer {
+  width: 100%;
+  text-align: center;
+}
+.columnContainer {
+  max-width: 1200px;
+  margin: 5em auto 0;
+}
+.columnContainer ul {
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  padding-left: 0;
+}
+.columnContainer ul li.column {
+/*  border: 1px solid #ccc;*/
+  word-break: break-word;
+  width: 25%;
+  margin-right: 20px;
+  font-size: initial;
+}
+.columnContainer ul li.column img {
+  width: 100%;
+  object-fit: contain;
+}
+.columnContainer ul li.column:nth-of-type(3n) {
+    margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+  .columnContainer ul {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: initial;
+    text-align: left;
+  }
+  .columnContainer ul li.column {
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  .columnContainer ul li.column .square img {
+    width: 100%;
+    /* height: auto; */
+     height: 250px;
+  }
+  .columnContainer ul li.column p {
+    word-break: break-word;
+  }
+  img.circlePhoto {
+    width: 40%;
+    margin: 1em 0.5em;
+  }
+}
+/* コラム詳細 */
+.contributionContainer {
+  max-width: 90%;
+}
+.wp-post-image {
+  width: 100%;
+/*  height: auto; */
+  height: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .contributionContainer img {
+    width: 100%;
+	 height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contributionContainer {
+    width: 90%;
+  }
+/*
+	.contributionContainer img {
+    width: 100%;
+  }
+	*/
+}
+.contributionContainer img{
+	height:auto;
+}
+
+
+/* コンタクトフォーム */
+div.wpcf7 {
+	width: 50%;
+}
+.wpcf7c-elm-step1 subTitle,
+.wpcf7c-elm-step2{
+	font-size: 18px;
+	border-bottom: solid #333333 2px;
+	padding-bottom: 7px;
+}
+#wpcf7-f1955-o1 {
+	margin: auto;
+}
+.must {
+	background: #d35766;
+/*	background: #FF1A00;*/
+}
+
+.free {
+	background: #999;
+}
+
+.must,
+.free {
+	color: #FFF;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-right: 10px;
+	padding: 5px 10px;
+	letter-spacing: 0.2em;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea  {
+	 width: 100%;
+	 padding: 8px 15px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 border: 1px solid #ddd;
+	 border-radius: 3px;
+}
+
+.wpcf7 dl {
+	clear: both;
+}
+.wpcf7 dt {
+	float: left;
+}
+.wpcf7 dd {
+	margin: 0 0 2vh 0;
+	padding-left: 12em;
+}
+
+input.wpcf7-back {
+  width: 274px;
+  height: 60px;
+  padding: 7px;
+  font-size: 22px;
+  background: #33AFB7;
+  color: #FFFFFF;
+  cursor: pointer;
+	margin: 10px;
+	border-bottom: none;
+}
+
+input.wpcf7-confirm, 
+input.wpcf7-submit {
+	width: 274px;
+	height: 60px;
+	padding: 7px;
+	font-size: 22px;
+	background: #d35766;
+/*	background: #C30D23; */
+	color: #FFFFFF;
+	cursor: pointer;
+	border-bottom: none;
+}
+
+div.wpcf7-mail-sent-ok{
+	border: none !important;
+}
+
+.contact_btn {
+    text-align: center;
+}
+
+div.wpcf7-validation-errors{
+	border: 2px solid #d35766 !important;
+}
+
+@media screen and (max-width: 1024px) {
+		div.wpcf7 {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 896px) {
+	div.wpcf7 {
+		width: 60%;
+	}
+	.wpcf7 dt {
+		float: none;
+	}
+	.wpcf7 dd {
+		margin: 0 0 2vh 0;
+		padding-left: 0;
+	}
+	input.wpcf7-back,
+	input.wpcf7-confirm, 
+	input.wpcf7-submit {
+		width: 100%;
+		margin: auto;
+		padding: 0px;
+		font-size: 16px;
+	}
+	input.wpcf7-back {
+		margin-bottom: 25px;
+	}
+}
+@media screen and (max-width: 480px) {
+	div.wpcf7 {
+		width: 80%;
+	}
+	.wpcf7 dt {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.wpcf7 dd {
+		margin: 0;
+		padding-left: 0;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	input.wpcf7-back,
+	input.wpcf7-confirm, 
+	input.wpcf7-submit {
+		width: 100%;
+		margin: auto;
+		padding: 0px;
+		font-size: 16px;
+	}
+	input.wpcf7-back {
+		margin-bottom: 25px;
+	}
+}
+/** ニュース一覧 **/
+.newsListTable1row {
+  width: 30%;
+  height: 85px;
+  font-size: 30px;
+}
+.newsListTable1row span{
+  width: 30%;
+  height: 85px;
+  font-size: 14px;
+}
+
+.newsListTable2row {
+  width: 15%;
+  border-bottom: 1px dotted #CDCDCD;
+  font-size: 16px;
+  text-align: center;
+}
+.newsListTable3row {
+  width: 50%;
+  border-bottom: 1px dotted #CDCDCD;
+  font-size: 17px;
+}
+.newsListTable3row a{
+	float: right;
+	color: black;
+	text-decoration: none;
+}
+.newsListTable{
+	margin: 10 0;
+	height: 85px;
+}
+
+/** AboutWillbe **/
+#WhatsWillbe .maincatch{
+/*	display:flex;*/
+	max-width:100%;
+}
+#WhatsWillbe .maincatch-img{
+	width:100%;
+	flex:5;
+}
+#WhatsWillbe .maincatch-img img{
+	width:100%;
+	min-height:100%;
+}
+#WhatsWillbe .maincatch-cource{
+	margin-left:auto;
+	flex:1;
+}
+#WhatsWillbe .maincatch-cource img{
+	width:100%;
+	max-width: 100%;
+	height: auto;
+}
+#WhatsWillbe .whatswillbe-header{
+	padding-top:50px;
+	padding-bottom:50px;
+	margin:auto;
+	display :flex;
+	flex-direction: column;
+	background: repeating-linear-gradient(-45deg, #E60020, #E60020 8px, #CC3333 0, #CC3333 16px);
+}
+#WhatsWillbe .whatswillbe-title{
+	margin:auto;
+	align-items: center;
+/*	font-weight:bold;*/
+	font-size:1.6em;
+	color:white;
+}
+
+#WhatsWillbe .whatswillbe-header hr{
+	border-top: 2px solid #E60020;
+	width: 3%;
+}
+
+#WhatsWillbe .whatswillbe-text{
+	margin:auto;
+	align-items:center;
+	text-align:center;
+	line-height:1.8em;
+	padding-top:40px;
+	color:white;
+}
+
+#WhatsWillbe .strength{
+	width:70%;
+	margin:auto;
+}
+
+#WhatsWillbe .strength hr{
+	border-top: 2px solid #E60020;
+	width: 3%;
+}
+
+#WhatsWillbe .strength-title{
+	text-align:center;
+/*	font-weight:bold;*/
+	font-size:1.6em;
+	padding-top:30px;
+}
+
+#WhatsWillbe .smallstep{
+	display :flex;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin:0px 0px 0px 0px;
+	border-bottom:1px solid #f02e6c;
+}
+#WhatsWillbe .smallstep-img{
+	padding-right:50px;
+}
+#WhatsWillbe .smallstep-txet-header{
+	padding-bottom:10px;
+	color:#f02e6c;
+}
+#WhatsWillbe .smallstep-txet-header2{
+	padding-bottom:10px;
+	font-weight:bold;
+	font-size:1.2em;
+}
+#WhatsWillbe .smallstep-txet-body{
+	line-height:1.8em;
+}
+#WhatsWillbe .learning{
+	display:flex;
+	flex-direction: row-reverse;
+	padding-top:50px;
+	padding-bottom:50px;
+	border-bottom:1px solid #f02e6c;
+}
+#WhatsWillbe .learning-img{
+	padding-left:50px;
+}
+#WhatsWillbe .learning-txet-header{
+	padding-bottom:10px;
+	color:#f02e6c;
+	text-align:right;
+}
+#WhatsWillbe .learning-txet-header2{
+	padding-bottom:10px;
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:right;
+}
+#WhatsWillbe .learning-txet-body{
+	line-height:1.8em;
+}
+#WhatsWillbe .habituation{
+	display:flex;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+#WhatsWillbe .habituation-img{
+	padding-right:50px;
+}
+#WhatsWillbe .habituation-txet-header{
+	padding-bottom:10px;
+	color:#f02e6c;
+}
+#WhatsWillbe .habituation-txet-header2{
+	padding-bottom:10px;
+	font-weight:bold;
+	font-size:1.2em;
+}
+#WhatsWillbe .habituation-txet-body{
+	line-height:1.8em;
+}
+#WhatsWillbe .pencil img{
+	width:100%;
+	max-height:350px;
+}
+#WhatsWillbe .message{
+	padding-top:50px;
+	width:70%;
+	margin:auto;
+}
+
+#WhatsWillbe .message hr{
+	border-top: 2px solid #E60020;
+	width: 3%;
+}
+
+#WhatsWillbe .message-title{
+	text-align:center;
+/*	font-weight:bold;*/
+	font-size:1.6em;
+}
+
+#WhatsWillbe .message-main{
+	padding-top:50px;
+	padding-bottom:50px;
+	display:flex;
+}
+#WhatsWillbe .message-img{
+	padding-right:50px;
+}
+#WhatsWillbe .message-txet-body{
+	line-height:1.8em;
+	padding:0 1.8em;
+}
+
+@media only screen and (min-width: 767px){
+
+}
+
+@media screen and (max-width: 1024px){
+	#WhatsWillbe .message-txet-body{
+		padding:0;
+	}
+	#WhatsWillbe .smallstep{
+		display:flex;
+		flex-direction: column;
+	}
+	
+	#WhatsWillbe .smallstep-img{
+		margin:auto;
+		align-items: center;
+		padding-right:0px;
+		padding-bottom:10px;
+	}
+	
+	#WhatsWillbe .learning{
+		display :flex;
+		flex-direction: column;
+	}
+	
+	#WhatsWillbe .learning-img{
+		margin:auto;
+		align-items: center;
+		padding-left:0px;
+		padding-bottom:10px;
+	}
+	
+	#WhatsWillbe .habituation{
+		display :flex;
+		flex-direction: column;
+	}
+	
+	#WhatsWillbe .habituation-img{
+		margin:auto;
+		align-items: center;
+		padding-right:0px;
+		padding-bottom:10px;
+	}
+	
+	#WhatsWillbe .message-main{
+		display:flex;
+		flex-direction: column;
+	}
+	
+	#WhatsWillbe .message-img{
+		margin:auto;
+		align-items: center;
+		padding-bottom:50px;
+		padding-right:0px;
+	}
+
+	#WhatsWillbe .message-img img{
+		max-width:100%;
+	}
+}
+
+/* コラム一覧 */
+#column-list h2{
+	font-size:20px;
+}
+
+
+/* 共通 */
+.square-green{
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #008000;
+}
+.square-navy{
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000080;
+}
+.youtube iframe{
+  width: 100%;
+}
