@@ -1,5 +1,6 @@
 @import url('./css/flow.css');
 @import url('./css/contact.css');
+@import url('./css/column_list.css');
 
 main {
   clear: both;
@@ -47,9 +48,9 @@ nav #logo {
 		width: 100%;
 	}	
 	
-	#logo {
-		/* margin-left: 3em; */
-	}
+/* 	#logo {
+		margin-left: 3em;
+	} */
 }
 
 /******************トップページ******************/
@@ -372,10 +373,6 @@ nav #logo {
   margin: 0 auto 3em;
   position: relative;
 }
-.secondImage1 {
-  width: 100%;
-  /* max-width: 1200px; */
-}
 .what_sg a {
   position: absolute;
   left: 0;
@@ -391,9 +388,6 @@ nav #logo {
     /*margin-left: 110px;*/
 }
 @media screen and (max-width: 420px) {
-  .secondImage1 {
-		/* width: 300px; */
-	}
   .whatsStudygymClick {
       width: 115px;
       height: 25px;
@@ -747,9 +741,6 @@ span.previousfirst{
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
 }
 @media screen and (max-width: 420px) {
-	.secondImage1 {
-		/* width: 300px; */
-	}
 	.contributionContainer{
 		width: 75%;
 	}
@@ -2185,12 +2176,6 @@ div.wpcf7-validation-errors{
 		max-width:100%;
 	}
 }
-
-/* コラム一覧 */
-#column-list h2{
-	font-size:20px;
-}
-
 
 /* 共通 */
 .square-green{
