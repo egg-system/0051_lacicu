@@ -11,15 +11,18 @@
     if($wp_query->have_posts()): while($wp_query->have_posts()) : $wp_query->the_post();
   ?>
   <li class="column">
+	  <div class="column_thumbnail_area">
     <?php if (has_post_thumbnail()) : ?>
 		  <a href="<?php the_permalink(); ?>">
-        <?php the_post_thumbnail(array( 360, 300 ) ); ?>
+        <?php //the_post_thumbnail(array( 360, 300 ) ); ?>
+        <?php the_post_thumbnail('large'); ?>
 			  </a>
     <?php else : ?>
 		  <a href="<?php the_permalink(); ?>">
 			  <img src="<?php bloginfo('template_url'); ?>/img/square.png" alt="デフォルト画像" />
 		  </a>
     <?php endif ; ?>
+	  </div>
     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	  <p>
 			<?php the_excerpt(); ?>

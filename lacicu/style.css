@@ -715,7 +715,7 @@ span.contributionCategory{
   margin: 5px 0 10px 0;
   display: inline-block;
   color: #000;
-  border-left: 1px solid #000;
+  border-left: 1px solid #E60020;
 }
 span.previous, span.next {
   display: inline-block;
@@ -732,11 +732,6 @@ span.previousfirst{
 	border: 0px;
 }
 
-/* アイキャッチ画像サイズ */
-.wp-post-image {
-    width: 800px;
-    height: 488px;
-}
 
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
 }
@@ -1703,7 +1698,7 @@ p.wpcf7c-elm-step1 {
   font-size: initial;
 }
 .columnContainer ul li.column img {
-  width: 100%;
+  width: 315px;
   object-fit: contain;
 }
 .columnContainer ul li.column:nth-of-type(3n) {
@@ -1741,10 +1736,15 @@ p.wpcf7c-elm-step1 {
 .contributionContainer {
   max-width: 90%;
 }
+.column_thumbnail_area {
+    text-align: center;
+}
+
+/* アイキャッチ画像サイズ */
 .wp-post-image {
-  width: 100%;
+  width: 315px;
 /*  height: auto; */
-  height: 200px;
+  height: 210px;
 }
 
 @media screen and (max-width: 767px) {
@@ -2192,4 +2192,12 @@ div.wpcf7-validation-errors{
 }
 .youtube iframe{
   width: 100%;
+}
+
+/* 2019.3.22 追加対応（ブログ詳細ページではアイキャッチを非表示） */
+.contributionCatchImg img{
+	display:none;
+}
+.columnContainer ul li {
+	display: inline-block;
 }
