@@ -47,10 +47,6 @@ nav #logo {
 	.main-content {
 		width: 100%;
 	}	
-	
-/* 	#logo {
-		margin-left: 3em;
-	} */
 }
 
 /******************トップページ******************/
@@ -378,23 +374,6 @@ nav #logo {
   left: 0;
   bottom: 0;
 }
-.whatsStudygymClick {
-    /* display: block; */
-    /* text-align: left; */
-    width: 233px;
-    /* height: 50px; */
-    /* transform: translateY(-50px); */
-    /* cursor: pointer; */
-    /*margin-left: 110px;*/
-}
-@media screen and (max-width: 420px) {
-  .whatsStudygymClick {
-      width: 115px;
-      height: 25px;
-      /* margin-left: 10px; */
-      /* transform: translateY(-30px); */
-  }  
-}
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
 	.mainBigcontainer {
 		width: 100%;
@@ -403,12 +382,6 @@ nav #logo {
 @media screen and (max-width: 420px) {
 	.mainBigcontainer {
 		width: 100%;
-	}
-	.whatsStudygymClick {
-		width: 115px;
-		height: 25px;
-/*		margin-left: 10px;
-		transform: translateY(-30px);*/
 	}
 }
 /****************** Willbeの強み ******************/
@@ -568,15 +541,6 @@ table.newsTanle tr {
 	color:#000;
 }
 
-/*
-.column_TopPage + .columnContainer ul li.column:nth-last-child(1) {
-  margin-right: 0;
-}
-.column_TopPage + .columnContainer ul li.column h1{
-	margin:10px 0;
-}
-*/
-
 .square img{
   margin-bottom: 10px;
 }
@@ -714,8 +678,8 @@ span.contributionCategory{
   padding: 8px 0 8px 16px;
   margin: 5px 0 10px 0;
   display: inline-block;
-  color: #000;
-  border-left: 1px solid #E60020;
+	color: #000;
+	border-left: 2px solid #E60020;
 }
 span.previous, span.next {
   display: inline-block;
@@ -739,30 +703,6 @@ span.previousfirst{
 	.contributionContainer{
 		width: 75%;
 	}
-/*
-	.newsTable {
-	  width: 100%;
-	  margin-bottom: 100px;
-	}
-	.newsTable1row {
-	  width: 33%;
-	  height: 85px;
-	  font-size: 18px;
-	}
-	.newsTable2row {
-	  width: 50px;
-	  font-size: 16px;
-	  text-align: center;
-	}
-	.newsTable3row {
-	  width: 50%;
-	  font-size: 17px;
-	}
-	.column_TopPage + .columnContainer ul{
-		width: 100%;
-    font-size: 0;
-	}
-*/
 	.googlemap {
 		width: 90%;
 		height: 225px;
@@ -805,88 +745,13 @@ span.previousfirst{
   width: 83%;
   margin: 0 auto;
 }
-.whatsStudyGym {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
-}
-.whatsStudyGymContainer {
-  width: 75%;
-  margin: 0 auto;
-}
-.whatsStudyGymHead {
-	margin-bottom: 50px;
-	font-size: 15px;
-	width: 75%;	
-	text-align: left;
-}
-.whatsStudyGym1 {
-	width: 100%;
-	margin-bottom: 100px;
-	display: flex;
-}
-.whatsStudyGym1 h1 {
-  font-size: 46px;
-  font-weight: normal;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.whatsStudyGym1 p {
-  font-size: 18px;
-}
-.whatsStudyGym1_p {
-	display: inline-block;
-	margin-right: 0px;
-	text-align: left;
-	width: 710px;
-}
 .brain {
   display: inline-block;
   width: 150px;
 }
-.whatsStudyGym2 {
-  width: 100%;
-  margin-bottom: 100px;
-	display: flex;
-}
-.whatsStudyGym2 h1 {
-  font-size: 28px;
-  font-weight: normal;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.whatsStudyGym2 p {
-  font-size: 15px;
-}
-.whatsStudyGym2_p {
-  display: inline-block;
-  margin-right: 0px;
-  text-align: left;
-	width: 710px;
-}
 .step {
   display: inline-block;
   width: 150px;
-}
-.whatsStudyGym3 {
-  width: 100%;
-  margin-bottom: 100px;
-	display: flex;
-}
-.whatsStudyGym3 h1 {
-  font-size: 28px;
-  font-weight: normal;
-  color: #333333;
-  margin-bottom: 20px;
-}
-.whatsStudyGym3 p {
-  font-size: 15px;
-}
-.whatsStudyGym3_p {
-  display: inline-block;
-  margin-right: 0px;
-  text-align: left;
-	width: 710px;
 }
 .record {
   display: inline-block;
@@ -938,45 +803,6 @@ span.previousfirst{
 		margin-left: 10px;
 		width: 100px;
 	}
-	.whatsStudyGym1 h1 {
-		font-size: 28px;
-	}
-	.whatsStudyGym1 p {
-		margin: 15px;
-		font-size: 14px;
-	}
-	.whatsStudyGym1_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.whatsStudyGym2 h1 {
-		font-size: 20px;
-	}
-	.whatsStudyGym2 p {
-		margin: 15px;
-		font-size: 12px;
-	}
-	.whatsStudyGym2_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.whatsStudyGym3 h1 {
-		font-size: 20px;
-	}
-	.whatsStudyGym3 p {
-		margin: 15px;
-		font-size: 12px;
-	}
-	.whatsStudyGym3_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
 	.toTrainingPlanIntro {
 		font-size: 16px;
 	}
@@ -1004,61 +830,6 @@ span.previousfirst{
 		margin-left: 10px;
 		width: 100px;
 		margin-right: 0px;
-	}
-	.whatsStudyGym {
-		width: 100%;
-	}
-	.whatsStudyGymHead{
-		width: 100%;
-		text-align: center;
-	}
-	.whatsStudyGym1 {
-		display: block;
-	}
-	.whatsStudyGym1 h1 {
-		font-size: 28px;
-	}
-	.whatsStudyGym1 p {
-		margin: 15px;
-		font-size: 14px;
-	}
-	.whatsStudyGym1_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.whatsStudyGym2 {
-		display: block;
-	}
-	.whatsStudyGym2 h1 {
-		font-size: 20px;
-	}
-	.whatsStudyGym2 p {
-		margin: 15px;
-		font-size: 12px;
-	}
-	.whatsStudyGym2_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.whatsStudyGym3 {
-		display: block;
-	}
-	.whatsStudyGym3 h1 {
-		font-size: 20px;
-	}
-	.whatsStudyGym3 p {
-		margin: 15px;
-		font-size: 12px;
-	}
-	.whatsStudyGym3_p {
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		text-align: center;
 	}
 	.toTrainingPlanIntro {
 		font-size: 16px;
