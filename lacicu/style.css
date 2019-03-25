@@ -344,7 +344,7 @@ nav #logo {
   top: 0;
   left: 110px;
 }
-.nav li ul li ul:before {/*layer-2▷*/
+.nav li ul li ul:before {
   position: absolute;
   content: "";
   left: 30px;
@@ -355,13 +355,7 @@ nav #logo {
   top: 0;
 }
 .line {
-	/* float: right; */
 	width: 60px;
-}
-.twitter {
-	/* float: right; */
-	width: 60px;
-	margin-left: 20px;
 }
 
 .what_sg {
@@ -514,7 +508,6 @@ table.newsTanle tr {
 	list-style:none;
 }
 .columnTop > .columnContainer ul li.column {
-/*  height: auto; */
   border: none !important;
   word-break: break-word;
   width: 360px;
@@ -578,10 +571,6 @@ table.newsTanle tr {
         text-decoration: none;	
 }
 
-/* .topColumnListMore a:hover {
-        color: #FFFFFF;
-        background-color: #3E4051;
-} */
 @media screen and (max-width: 1200px) {
 	.columnTop > .columnContainer ul li.column {
 		margin:20px auto 0;
@@ -617,7 +606,6 @@ table.newsTanle tr {
 
 /*-----------------------------------*/
 .googlemap {
-	/* margin-bottom: 50px; */
 	width: 100%; 
 	height: 450px;
   display: block;
@@ -641,7 +629,6 @@ table.newsTanle tr {
 
 /******************投稿（コラム）ページ******************/
 .contribution {
-/*  width: 1200px; */
   margin-bottom: 100px;
   text-align: left;
 }
@@ -877,7 +864,6 @@ span.previousfirst{
 }
 .aboutCompassHead {
 	text-align: center;
-/* 	width: 800px; */
 	padding-top: 50px;
 	margin: 10px ;
 	margin-bottom: 100px;
@@ -1049,7 +1035,6 @@ span.previousfirst{
 	}
 	.aboutJyukencompass {
 		width: 90%;
-/*		padding-top: 100px;*/
 		margin: 0 auto;
 	}
 	.belt {
@@ -1376,15 +1361,6 @@ p.wpcf7c-elm-step1 {
 .line {
   display: inline-block;
 }
-.twitterFooter {
-  width: 60px;
-  float: right;
-  margin-left: 20px;
-}
-.lineFooter {
-  width: 60px;
-  float: right;
-}
 .inquiryButton {
   width: 200px;
   height: 60px;
@@ -1438,13 +1414,6 @@ p.wpcf7c-elm-step1 {
 		line-height: 30px;
 		height: 30px;
 	}
-	.twitterFooter {
-	  width: 30px;
-	  margin-left: 10px;
-	}
-	.lineFooter {
-	  width: 30px;
-	}
 }
 /* コラム一覧 */
 .mainBigcontainer {
@@ -1462,7 +1431,6 @@ p.wpcf7c-elm-step1 {
   padding-left: 0;
 }
 .columnContainer ul li.column {
-/*  border: 1px solid #ccc;*/
   word-break: break-word;
   width: 25%;
   margin-right: 20px;
@@ -1492,7 +1460,6 @@ p.wpcf7c-elm-step1 {
   }
   .columnContainer ul li.column .square img {
     width: 100%;
-    /* height: auto; */
      height: 250px;
   }
   .columnContainer ul li.column p {
@@ -1514,7 +1481,6 @@ p.wpcf7c-elm-step1 {
 /* アイキャッチ画像サイズ */
 .wp-post-image {
   width: 315px;
-/*  height: auto; */
   height: 210px;
 }
 
@@ -1528,11 +1494,6 @@ p.wpcf7c-elm-step1 {
   .contributionContainer {
     width: 90%;
   }
-/*
-	.contributionContainer img {
-    width: 100%;
-  }
-	*/
 }
 .contributionContainer img{
 	height:auto;
@@ -1554,7 +1515,6 @@ div.wpcf7 {
 }
 .must {
 	background: #d35766;
-/*	background: #FF1A00;*/
 }
 
 .free {
@@ -1613,7 +1573,6 @@ input.wpcf7-submit {
 	padding: 7px;
 	font-size: 22px;
 	background: #d35766;
-/*	background: #C30D23; */
 	color: #FFFFFF;
 	cursor: pointer;
 	border-bottom: none;
@@ -1720,7 +1679,6 @@ div.wpcf7-validation-errors{
 
 /** AboutWillbe **/
 #WhatsWillbe .maincatch{
-/*	display:flex;*/
 	max-width:100%;
 }
 #WhatsWillbe .maincatch-img{
@@ -1751,7 +1709,6 @@ div.wpcf7-validation-errors{
 #WhatsWillbe .whatswillbe-title{
 	margin:auto;
 	align-items: center;
-/*	font-weight:bold;*/
 	font-size:1.6em;
 	color:white;
 }
@@ -1782,7 +1739,6 @@ div.wpcf7-validation-errors{
 
 #WhatsWillbe .strength-title{
 	text-align:center;
-/*	font-weight:bold;*/
 	font-size:1.6em;
 	padding-top:30px;
 }
@@ -1870,7 +1826,6 @@ div.wpcf7-validation-errors{
 
 #WhatsWillbe .message-title{
 	text-align:center;
-/*	font-weight:bold;*/
 	font-size:1.6em;
 }
 
@@ -1960,9 +1915,6 @@ div.wpcf7-validation-errors{
     margin: 2em 0;
     font-weight: bold;
     border: solid 3px #000080;
-}
-.youtube iframe{
-  width: 100%;
 }
 
 /* 2019.3.22 追加対応（ブログ詳細ページではアイキャッチを非表示） */
