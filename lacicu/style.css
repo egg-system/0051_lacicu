@@ -611,14 +611,6 @@ table.newsTanle tr {
   display: block;
   margin: 0 auto 3em;
 }
-.circlePhoto {
-  width: 260px;
-  margin-right: 60px;
-}
-.circlePhoto:last-child {
-  margin-right: 0;
-}
-
 /******************共通メニュー******************/
 
 .aboutHeader {
@@ -683,9 +675,6 @@ span.previousfirst{
 	border: 0px;
 }
 
-
-@media only screen and (min-width: 421px) and (max-width: 1024px) {
-}
 @media screen and (max-width: 420px) {
 	.contributionContainer{
 		width: 75%;
@@ -693,13 +682,6 @@ span.previousfirst{
 	.googlemap {
 		width: 90%;
 		height: 225px;
-	}
-	.circlePhoto {
-		width: 50px;
-		margin-right: 60px;
-	}
-	.circlePhoto:last-child {
-		margin-right: 0;
 	}
 	.wp-post-image {
 		width: 75%;
@@ -993,19 +975,6 @@ p.wpcf7c-elm-step1 {
 .line {
   display: inline-block;
 }
-.inquiryButton {
-  width: 200px;
-  height: 60px;
-  line-height: 60px;
-  background: #FF7676;
-  text-align: center;
-  border-radius: 7px;
-  color: #FFFFFF;
-  font-weight: bold;
-  cursor: pointer;
-
-  display: inline-block;
-}
 .allRightsReserved {
   clear: both;
   text-align: center;
@@ -1041,10 +1010,6 @@ p.wpcf7c-elm-step1 {
 		padding-top: 0px;
 		font-size: 12px;
 		line-height: 25px;
-	}
-	.inquiryButton {
-		line-height: 30px;
-		height: 30px;
 	}
 }
 /* コラム一覧 */
@@ -1098,10 +1063,6 @@ p.wpcf7c-elm-step1 {
   }
   .columnContainer ul li.column p {
     word-break: break-word;
-  }
-  img.circlePhoto {
-    width: 40%;
-    margin: 1em 0.5em;
   }
 }
 /* コラム詳細 */
@@ -1476,10 +1437,6 @@ div.wpcf7-validation-errors{
 	padding:0 1.8em;
 }
 
-@media only screen and (min-width: 767px){
-
-}
-
 @media screen and (max-width: 1024px){
 	#WhatsWillbe .message-txet-body{
 		padding:0;
@@ -1535,20 +1492,6 @@ div.wpcf7-validation-errors{
 	#WhatsWillbe .message-img img{
 		max-width:100%;
 	}
-}
-
-/* 共通 */
-.square-green{
-	padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #008000;
-}
-.square-navy{
-	padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000080;
 }
 
 /* 2019.3.22 追加対応（ブログ詳細ページではアイキャッチを非表示） */
