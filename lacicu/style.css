@@ -724,10 +724,6 @@ span.previousfirst{
 }
 
 /******************お問い合わせフォーム******************/
-.formcontainer {
-  width: 1200px;
-  margin: 20 auto;
-}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -748,10 +744,6 @@ textarea {
     background: transparent;
     border: 1px solid #CDCDCD;
     padding: 5px;
-}
-.purpose {
-  width: 250px;
-  border-radius: 0;
 }
 .formWrap {
 	width: 800px;
@@ -794,11 +786,6 @@ table.formTable td,table.formTable th{
   color: #FFFFFF;
   background: #C30D23;
 }
-.buttonContainer {
-  width: 580px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
 .comform {
   width: 274px;
   height: 80px;
@@ -827,13 +814,6 @@ p.wpcf7c-elm-step1 {
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-	.formcontainer {
-		width: 100%;
-		margin: 0 auto;
-	}
-	.purpose {
-		width: 200px;
-	}
 	.formWrap {
 		width: 100%;
 		margin: 0px auto;
@@ -863,12 +843,6 @@ p.wpcf7c-elm-step1 {
 		line-height: 14px;
 		font-size: 8px;
 	}
-	.buttonContainer {
-		text-align: center;
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 100px;
-	}
 	.comform {
 	  width: 150px;
 	  height: 40px;
@@ -889,10 +863,6 @@ p.wpcf7c-elm-step1 {
 }
 /* smartPhone */
 @media screen and (max-width: 420px) {
-	.formcontainer {
-		width: 100%;
-		margin: 0 auto;
-	}
 	.formWrap {
 		width: 100%;
 		margin: 0px auto;
@@ -930,12 +900,6 @@ p.wpcf7c-elm-step1 {
 		height: 15px;
 		line-height: 14px;
 		font-size: 8px;
-	}
-	.buttonContainer {
-		text-align: center;
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 100px;
 	}
 	.comform {
 	  width: 40%;
