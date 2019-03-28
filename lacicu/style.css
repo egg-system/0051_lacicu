@@ -712,17 +712,6 @@ span.previousfirst{
 	text-align: center;
 }
 
-
-/******************スタディジムとは******************/
-.aboutStudygymHeader {
-  width: 100%;
-  height: 600px;
-  padding-top: 50px;
-  margin-bottom: 100px;
-  background-image: url(img/aboutStudygym_top.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .studyGymLogo {
   float: left;
   width: 200px;
@@ -732,373 +721,27 @@ span.previousfirst{
   width: 83%;
   margin: 0 auto;
 }
-.brain {
-  display: inline-block;
-  width: 150px;
-}
 .step {
   display: inline-block;
   width: 150px;
 }
-.record {
-  display: inline-block;
-  width: 150px;
-  padding-bottom: 100px;
-}
-.toTrainingPlanIntro {
-  font-size: 22px;
-  text-align: center;
-}
-.toTrainingPlan {
-  width: 75%;
-  height: 100px;
-  border: 1px solid #333333;
-  line-height: 100px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  padding-left: 30px;
-  box-sizing: border-box;
-  font-size: 26px;
-  display: flex;
-}
-.allow {
-  text-align: center;
-  margin: 10px 0 30px 0;
-}
-.allowPhoto {
-  height: 20px;
-}
-.whatsJyukencompass {
-  width: 250px;
-  margin-left: 30px;
-  transform: translateY(-75px);
-  cursor: pointer;
-}
-.CourseandPricing {
-  font-size: 15px;
-}
 /* tablet  */
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-	.aboutStudygymHeader {
-		padding-top: 10px;
-		margin-bottom: 50px;
-		height: 360px;
-		width: 100%;
-		text-align: center;	
-	}
 	.studyGymLogo {
 		margin-left: 10px;
 		width: 100px;
 	}
-	.toTrainingPlanIntro {
-		font-size: 16px;
-	}
-	.toTrainingPlan {
-		text-align: center;
-		padding-left: 0;
-		width: 100%;
-		font-size: 12px;
-		line-height: 40px;
-		height: 120px;
-	}
-	.whatsJyukencompass {
-		margin-left: 0px;
-	}
 }
 /* smartPhone */
 @media screen and (max-width: 420px) {
-	.aboutStudygymHeader {
-		padding-top: 10px;
-		margin-bottom: 50px;
-		height: 300px;
-		text-align: center;	
-	}
 	.studyGymLogo {
 		margin-left: 10px;
 		width: 100px;
 		margin-right: 0px;
 	}
-	.toTrainingPlanIntro {
-		font-size: 16px;
-	}
-	.toTrainingPlan {
-		text-align: center;
-		padding-left: 0;
-		width: 100%;
-		font-size: 12px;
-		line-height: 40px;
-		height: 120px;
-		display: block;
-	}
-	.whatsJyukencompass {
-		margin-left: 0px;
-		 transform: translateY(0px);
-	}
 }
 
-.underlines {
-  border-bottom: 1px solid #CDCDCD;
-}
-#lefts {
-  padding-left: 10px;
-  text-align: left;
-}
-.servicesUl {
-  width: 100%;
-  margin: 0 auto;
-}
-.services {
-  margin-bottom:  100px;
-  padding-left: 15px;
-}
-.services li {
-  font-size: 12px;
-  line-height: 20px;
-  list-style: none;
-}
-/******************受験コンパスとは******************/
-.aboutMain {
-	width: 100%;
-	margin-bottom: 100px;
-	text-align: center;
-}
-.aboutCompassHead {
-	text-align: center;
-	padding-top: 50px;
-	margin: 10px ;
-	margin-bottom: 100px;
-}
-/* スマホのみpadding-top 100px を削除するため */
-@media only screen and (min-width: 1024px) {
-.aboutJyukencompass {
-  width: 800px;
-  padding-top: 100px;
-  margin: 0 auto;
-}
-}
-.aboutJyukencompass p {
-  font-size: 28px;
-  text-align: center;
-}
-.introduction {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-.aboutLine {
-  width: 100px;
-  text-align: center;
-  color: #CDCDCD;
-  margin: 0 auto;
-}
-.aboutJyukencompassWhats {
-  font-size: 16px;
-  color: #36BDEF;
-  text-align: center;
-  margin-top: 50px;
-}
-.jukencompasstoha {
-  font-size: 27px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.belt {
-  width: 100%;
-  height: 100px;
-  padding-top: 20px;
-  background: #36bdef;
-}
-.dameRunner {
-  text-align: center;
-
-}
-.dameRunnerLogo {
-  width: 800px;
-}
-.dameRunnerImg {
-  width: 800px;
-  margin: 50px 0 50px;
-}
-.ifJyukencompassBe {
-  width: 600px;
-}
-.ifJyukencompassContainer {
-  width: 1200px;
-  margin: 0 auto;
-}
-.yourGoal {
-  text-align: center;
-}
-.yourGoalImg {
-  width: 800px;
-  margin: 100px 0 50px;
-}
-.step1 {
-  text-align: center;
-}
-.step1Img {
-  width: 800px;
-  margin: 50px 0 50px;
-}
-.step2 {
-  text-align: center;
-}
-.step2Img {
-  width: 800px;
-  margin: 50px 0 50px;
-}
-.stepsContainer {
-  width: 1200px;
-  margin: 0 auto;
-}
-.points {
-  text-align: center;
-}
-.pointsImg {
-  width: 800px;
-  margin: 0 0 50px;
-}
-.points4Img {
-  width: 600px;
-}
-@media only screen and (min-width: 421px) and (max-width: 1024px) {
-	.aboutCompassHead {
-		padding-top: 10px;
-		margin-bottom: 10px;
-		height: 360px;
-		width: 100%;
-		text-align: center;	
-	}
-		.aboutJyukencompass {
-		width: 90%;
-		padding-top: 100px;
-		margin: 0 auto;
-	}
-	.belt {
-		height: 50px;
-	}
-	.dameRunnerLogo {
-	  width: 90%;
-	}
-	.dameRunnerImg {
-	  width: 90%;
-	  margin: 50px auto;
-	}
-	.ifJyukencompassBe {
-	  width: 80%;
-	}
-	.ifJyukencompassContainer {
-	  width: 80%;
-	  margin: 0 auto;
-	}
-	.yourGoal {
-	  text-align: center;
-	}
-	.yourGoalImg {
-		width: 90%;
-		margin: 30px 0 15px;
-	}
-	.step1 {
-	  text-align: center;
-	}
-	.step1Img {
-	  width: 90%;
-	}
-	.step2 {
-	  text-align: center;
-	}
-	.step2Img {
-	  width: 96%;
-		margin-bottom: 20px;
-	}
-	.stepsContainer {
-	  width: 90%;
-	  margin: 0 auto;
-	}
-	.points {
-	  text-align: center;
-	}
-	.pointsImg {
-	  width: 90%;
-	}
-	.points4Img {
-	  width: 95%;
-		margin-left: 30px;
-	}
-}
-/* smartPhone */
-@media screen and (max-width: 420px) {
-	.aboutCompassHead {
-		padding-top: 10px;
-		margin-bottom: 10px;
-		height: 250px;
-		text-align: center;	
-	}
-	.aboutJyukencompass {
-		width: 90%;
-		margin: 0 auto;
-	}
-	.belt {
-		height: 50px;
-	}
-	.dameRunnerLogo {
-	  width: 90%;
-	}
-	.dameRunnerImg {
-	  width: 90%;
-	  margin: 50px auto;
-	}
-	.ifJyukencompassBe {
-	  width: 80%;
-	}
-	.ifJyukencompassContainer {
-	  width: 80%;
-	  margin: 0 auto;
-	}
-	.yourGoal {
-	  text-align: center;
-	}
-	.yourGoalImg {
-		width: 90%;
-		margin: 30px 0 15px;
-	}
-	.step1 {
-	  text-align: center;
-	}
-	.step1Img {
-	  width: 90%;
-	}
-	.step2 {
-	  text-align: center;
-	}
-	.step2Img {
-	  width: 96%;
-		margin-bottom: 20px;
-	}
-	.stepsContainer {
-	  width: 90%;
-	  margin: 0 auto;
-	}
-	.points {
-	  text-align: center;
-	}
-	.pointsImg {
-	  width: 90%;
-	}
-	.points4Img {
-	  width: 95%;
-		margin-left: 30px;
-	}
-}
 /******************お問い合わせフォーム******************/
-.aboutStudygymForm {
-  width: 100%;
-  height: 600px;
-  margin-bottom: 100px;
-  padding-top: 50px;
-  background-image: url(img/inquiryHead.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .formcontainer {
   width: 1200px;
   margin: 20 auto;
@@ -1202,12 +845,6 @@ p.wpcf7c-elm-step1 {
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-	.aboutStudygymForm {
-		padding-top: 10px;
-		margin-bottom: 40px;
-		height: 250px;
-		text-align: center;	
-	}
 	.formcontainer {
 		width: 100%;
 		margin: 0 auto;
@@ -1270,11 +907,6 @@ p.wpcf7c-elm-step1 {
 }
 /* smartPhone */
 @media screen and (max-width: 420px) {
-	.aboutStudygymForm {
-		padding-top: 10px;
-		margin-bottom: 100px;
-		height: 300px;
-	}
 	.formcontainer {
 		width: 100%;
 		margin: 0 auto;
@@ -1431,10 +1063,12 @@ p.wpcf7c-elm-step1 {
   padding-left: 0;
 }
 .columnContainer ul li.column {
-  word-break: break-word;
+	word-break: break-word;
+	display: inline-block;
   width: 25%;
   margin-right: 20px;
-  font-size: initial;
+	font-size: initial;
+	vertical-align: top;
 }
 .columnContainer ul li.column img {
   width: 315px;
@@ -1456,7 +1090,7 @@ p.wpcf7c-elm-step1 {
     margin-bottom: 1em;
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+/*    border: 1px solid #ccc;*/
   }
   .columnContainer ul li.column .square img {
     width: 100%;
@@ -1480,8 +1114,8 @@ p.wpcf7c-elm-step1 {
 
 /* アイキャッチ画像サイズ */
 .wp-post-image {
-  width: 315px;
-  height: 210px;
+  width: 315px !important;
+  height: 210px !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -1923,4 +1557,15 @@ div.wpcf7-validation-errors{
 }
 .columnContainer ul li {
 	display: inline-block;
+}
+
+/* コラム一覧のh2 */
+.columnContainer h2{
+	font-size : 19px;
+}
+
+@media screen and (max-width: 420px) {
+	.wp-post-image {
+		width: 100% !important;
+	}
 }

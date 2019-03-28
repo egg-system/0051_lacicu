@@ -265,6 +265,9 @@ color: #FF82B2;
 width: 65%;
 margin: 0;
 }
+.underlines {
+  border-bottom: 1px solid #CDCDCD;
+}
 
 /* tablet  */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {

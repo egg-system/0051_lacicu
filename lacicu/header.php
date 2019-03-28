@@ -8,7 +8,7 @@
 	<!-- ファビコン設定 -->
 	<link rel="shortcut icon" href="/wp/wp-content/uploads/2019/02/logo01-128.ico">
 
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+<!--	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
@@ -44,9 +44,9 @@
 		</p>
 	</div> -->
   <ul id="slider">
-  <li class="slide-item courseprice-elementary"><a href="https://willbe-ako.com/course/#courseprice"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/02/Willbe_topC_1300-600.png" alt="" class="topImages"/></a></li>
-	  <li class="slide-item courseprice-middle"><a href="https://willbe-ako.com/course/#courseprice-middle"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/02/Willbe_topB_1300-600.png" alt="" class="topImages"/></a></li>
-   <li class="slide-item courseprice-high"><a href="https://willbe-ako.com/course/#courseprice-high"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/02/Willbe_topA_1300-600.png" alt="" class="topImages"/></a></li>
+  <li class="slide-item courseprice-elementary"><a href="https://willbe-ako.com/course/#courseprice"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/03/Willbe_topC_1300-600.png" alt="" class="topImages"/></a></li>
+	  <li class="slide-item courseprice-middle"><a href="https://willbe-ako.com/course/#courseprice-middle"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/03/Willbe_topB_1300-600.png" alt="" class="topImages"/></a></li>
+   <li class="slide-item courseprice-high"><a href="https://willbe-ako.com/course/#courseprice-high"><img src="https://willbe-ako.com/wp/wp-content/uploads/2019/03/Willbe_topA_1300-600.png" alt="" class="topImages"/></a></li>
   </ul>
   <ul id="thumbnail-list">
   	<li class="thumbnail-item thumbnail-current courseprice-elementary">

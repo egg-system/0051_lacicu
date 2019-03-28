@@ -27,7 +27,8 @@ if ( $the_query->have_posts() ) :
 	  <span class="square">
     <?php if (has_post_thumbnail()) : ?>
 		  <a href="<?php the_permalink(); ?>">
-        <?php the_post_thumbnail(array( 360, 300 ) ); ?>
+        <?php //the_post_thumbnail(array( 360, 300 ) ); ?>
+        <?php the_post_thumbnail('large'); ?>
 			  </a>
     <?php else : ?>
 		  <a href="<?php the_permalink(); ?>">
